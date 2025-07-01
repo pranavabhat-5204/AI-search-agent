@@ -2,7 +2,7 @@ from tavily import TavilyClient
 # This part of the program acts as the searching agent which takes the user input and searches on the web
 print('Please provide your search query')
 Query=str(input())
-tavily_client = TavilyClient(api_key="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")
+tavily_client = TavilyClient(api_key="")
 
 # Step 2. Executing the search request
 response = tavily_client.search(Query, search_depth = "advanced", max_results=5)

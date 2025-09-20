@@ -1,3 +1,5 @@
+##AI search agent
+
 This project is a **Streamlit-based AI Research Agent** that:
 - Takes a research query from the user.
 - Uses **Tavily API** to fetch relevant information from the web.

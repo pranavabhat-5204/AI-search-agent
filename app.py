@@ -2,7 +2,6 @@ import os
 import sqlite3
 import json
 import requests
-import trafilatura
 from tavily import TavilyClient
 from langchain_groq import ChatGroq
 import streamlit as st
